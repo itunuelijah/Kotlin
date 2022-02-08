@@ -1,0 +1,13 @@
+fun main (){var result = reciesiveSum(100000)
+println{result)}
+
+fun recursiveSum(n: Long) : Long {
+    return if (n <= 1){
+        n
+    } else {
+        n + recursiveSum(n -1)
+    }
+}
+
+
+
